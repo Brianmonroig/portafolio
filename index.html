@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Menu encabezado-->
+
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Brian</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portflio</a></li>
+                    <li><a href="#contactio" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            
+        </header>
+
+    </div>
+
+    <!--INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/herook.png" alt="">
+            </div>
+            <div class="texto-banner">
+                <h1>Brian Monroig</h1>
+                <h2>Front End Developer</h2>
+            </div>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seccion sobre mi -->
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Brian Monroig</span> Lorem ipsum dolor,
+                sit amet consectetur adipisicing elit. Eum,
+                reiciendis?</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            04/08/1990
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +34 614 328 428
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            brian.monroig@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            brian.monroig.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle Casanova,63 Barcelona
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            Front End
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Deportes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Lectura</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-business-time"></i>
+                            <span>Negocios</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Coches</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>Informática</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV<i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Seccion SKILLS -->
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>DJANGO</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PRofesional skills -->
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Resolucion de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>ESO</h4>
+                        <span class="casa">Casal dels Angels</span>
+                        <span class="fecha">2001-2006</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati libero aperiam rerum
+                            dolore fugit, magnam impedit a? Repudiandae est quia rerum sed possimus tenetur quod magnam non
+                            veritatis nesciunt?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso Front End</h4>
+                        <span class="casa">Inkoor</span>
+                        <span class="fecha">2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati libero aperiam rerum
+                            dolore fugit, magnam impedit a? Repudiandae est quia rerum sed possimus tenetur quod magnam non
+                            veritatis nesciunt?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front End Practicas</h4>
+                        <span class="casa">Onets</span>
+                        <span class="fecha">2023-2024</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati libero aperiam rerum
+                            dolore fugit, magnam impedit a? Repudiandae est quia rerum sed possimus tenetur quod magnam non
+                            veritatis nesciunt?</p>
+                        <div class="conectordi">
+                            <div class="circulodi"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Vigilante Seguridad</h4>
+                        <span class="casa">Securitas</span>
+                        <span class="fecha">2018 - Actualidad</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati libero aperiam rerum
+                            dolore fugit, magnam impedit a? Repudiandae est quia rerum sed possimus tenetur quod magnam non
+                            veritatis nesciunt?</p>
+                        <div class="conectordi">
+                            <div class="circulodi"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Portafolio -->
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Proyectos/proyecto1.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>Brian Monroig</p>
+                    </div>
+                </div>
+            
+            
+                <div class="proyecto">
+                    <img src="img/Proyectos/cafe2.png" alt="">
+                    <div class="overlay">
+                        <h3>Blog</h3>
+                        <p>Todo sobre café</p>
+                    </div>
+                </div>
+            
+            
+                <div class="proyecto">
+                    <div class="role">
+                    <img src="img/Proyectos/roleplay.png" alt="">
+                    </div>
+                    <div class="overlay">
+                        <h3>Roleplay</h3>
+                        <p>Hecho con Javascript</p>
+                    </div>
+                </div>
+            
+            
+                <div class="proyecto">
+                    <img src="img/Proyectos/tienda.png" alt="">
+                    <div class="overlay">
+                        <h3>Front End Store</h3>
+                        <p>Tienda de ropa</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seccion Contacto -->
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                        <!-- <i class="fa-solid fa-download"></i> -->
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/mapa.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Gran via, Barcelona
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +34 614328428
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: brian.monroig@gmail.com
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
