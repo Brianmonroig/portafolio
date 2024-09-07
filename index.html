@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <!-- Menu encabezado-->
+    <!-- Header Menu-->
 
     <div class="contenedor-header">
         <header>
@@ -26,23 +26,23 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">Sobre Mi</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">Home</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">About Me</a></li>
                     <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">Portflio</a></li>
-                    <li><a href="#contactio" onclick="seleccionar()">Contacto</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Resume</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contact</a></li>
                 </ul>
             </nav>
-                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
         </header>
 
     </div>
 
-    <!--INICIO-->
+    <!-- Home -->
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
@@ -53,33 +53,33 @@
                 <h2>Front End Developer</h2>
             </div>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/brian-monroig-4b7a27256/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Brianmonroig"><i class="fa-brands fa-github"></i></a>
             </div>
 
         </div>
     </section>
 
-    <!-- Seccion sobre mi -->
+    <!-- About Me Section -->
 
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Brian Monroig</span> Lorem ipsum dolor,
-                sit amet consectetur adipisicing elit. Eum,
-                reiciendis?</p>
+            <h2>About Me</h2>
+            <p><span>Hello, I'm Brian Monroig</span> I'm from Barcelona, I'm 34 years old, and I've always been passionate about technology.
+            I started studying programming because I wanted a change in my life, and I find it interesting to tackle logic problems for 
+        web applications. Currently, I work as a Security Guard, but in my free time, I study programming. I've started learning React.</p>
 
             <div class="fila">
-                <!-- datos personales -->
+                <!-- Personal Info -->
                 <div class="col">
-                    <h3>Datos Personales</h3>
+                    <h3>Personal Info</h3>
                     <ul>
                         <li>
-                            <strong>Cumpleaños</strong>
+                            <strong>Birthday</strong>
                             04/08/1990
                         </li>
                         <li>
-                            <strong>Teléfono</strong>
+                            <strong>Phone</strong>
                             +34 614 328 428
                         </li>
                         <li>
@@ -91,71 +91,62 @@
                             brian.monroig.com
                         </li>
                         <li>
-                            <strong>Dirección</strong>
-                            Calle Casanova,63 Barcelona
-                        </li>
-                        <li>
-                            <strong>Cargo</strong>
+                            <strong>Position</strong>
                             Front End
                         </li>
                     </ul>
 
                 </div>
-                <!-- intereses -->
+                <!-- Interests -->
                 <div class="col">
-                    <h3>Intereses</h3>
+                    <h3>Interests</h3>
                     <div class="contenedor-intereses">
                         <div class="interes">
                             <i class="fa-solid fa-gamepad"></i>
-                            <span>Juegos</span>
+                            <span>Games</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-headphones"></i>
-                            <span>Música</span>
+                            <span>Music</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-plane"></i>
-                            <span>Viajar</span>
+                            <span>Travel</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-person-hiking"></i>
-                            <span>Deportes</span>
+                            <span>Sports</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-book"></i>
-                            <span>Lectura</span>
+                            <span>Reading</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-business-time"></i>
-                            <span>Negocios</span>
+                            <span>Business</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-car"></i>
-                            <span>Coches</span>
+                            <span>Cars</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-laptop"></i>
-                            <span>Informática</span>
+                            <span>Computing</span>
                         </div>
-
 
                     </div>
                 </div>
             </div>
-            <button>
-                Descargar CV<i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
         </div>
     </section>
 
-    <!-- Seccion SKILLS -->
+    <!-- Skills Section -->
 
     <section class="skills" id="skills">
         <div class="contenido-seccion">
             <h2>Skills</h2>
             <div class="fila">
-                <!-- Technical Skill -->
+                <!-- Technical Skills -->
                 <div class="col">
                     <h3>Technical Skills</h3>
                     <div class="skill">
@@ -178,28 +169,28 @@
                     </div>
 
                     <div class="skill">
-                        <span>DJANGO</span>
+                        <span>React</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>20%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
 
                     <div class="skill">
-                        <span>Wordpress</span>
+                        <span>Typescript</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>60%</span>
+                                <span>70%</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- PRofesional skills -->
+                <!-- Professional Skills -->
                 <div class="col">
-                    <h3>Profesional Skills</h3>
+                    <h3>Professional Skills</h3>
                     <div class="skill">
-                        <span>Comunicación</span>
+                        <span>Communication</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>85%</span>
@@ -209,7 +200,7 @@
 
 
                     <div class="skill">
-                        <span>Trabajo en equipo</span>
+                        <span>Teamwork</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>70%</span>
@@ -219,7 +210,7 @@
 
 
                     <div class="skill">
-                        <span>Creatividad</span>
+                        <span>Creativity</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>85%</span>
@@ -228,7 +219,7 @@
                     </div>
 
                     <div class="skill">
-                        <span>Resolucion de problemas</span>
+                        <span>Problem Solving</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>60%</span>
@@ -240,57 +231,50 @@
         </div>
     </section>
 
-    <!-- Seccion Curriculum -->
+    <!-- Resume Section -->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
-            <h2>Curriculum</h2>
+            <h2>Resume</h2>
             <div class="fila">
                 <div class="col izquierda">
-                    <h3>Educación</h3>
+                    <h3>Education</h3>
                     <div class="item izq">
-                        <h4>ESO</h4>
+                        <h4>Secondary Education</h4>
                         <span class="casa">Casal dels Angels</span>
                         <span class="fecha">2001-2006</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati libero aperiam rerum
-                            dolore fugit, magnam impedit a? Repudiandae est quia rerum sed possimus tenetur quod magnam non
-                            veritatis nesciunt?</p>
+                        <p>Concerted compulsory education center</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Curso Front End</h4>
+                        <h4>Front End Course</h4>
                         <span class="casa">Inkoor</span>
                         <span class="fecha">2023</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati libero aperiam rerum
-                            dolore fugit, magnam impedit a? Repudiandae est quia rerum sed possimus tenetur quod magnam non
-                            veritatis nesciunt?</p>
+                        <p>Subsidized course for unemployed on web development in Barcelona</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col derecha">
-                    <h3>Experiencia de trabajo</h3>
+                    <h3>Work Experience</h3>
                     <div class="item der">
-                        <h4>Front End Practicas</h4>
+                        <h4>Front End Internship</h4>
                         <span class="casa">Onets</span>
                         <span class="fecha">2023-2024</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati libero aperiam rerum
-                            dolore fugit, magnam impedit a? Repudiandae est quia rerum sed possimus tenetur quod magnam non
-                            veritatis nesciunt?</p>
+                        <p>I performed typical tasks of a junior, such as layout, coding, always supervised by a senior.</p>
                         <div class="conectordi">
                             <div class="circulodi"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Vigilante Seguridad</h4>
-                        <span class="casa">Securitas</span>
-                        <span class="fecha">2018 - Actualidad</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque obcaecati libero aperiam rerum
-                            dolore fugit, magnam impedit a? Repudiandae est quia rerum sed possimus tenetur quod magnam non
-                            veritatis nesciunt?</p>
+                        <h4>Front End Developer (Typescript, React, Redux)</h4>
+                        <span class="casa">Innovai</span>
+                        <span class="fecha">2023 - Present</span>
+                        <p>I develop dynamic and responsive user interfaces, optimizing user experience and managing application state with Redux. I integrate APIs, implement efficient routing with React Router, and use TypeScript to ensure clean and maintainable code. 
+                        I collaborate with cross-functional teams to deliver high-quality digital products in an agile environment.</p>
                         <div class="conectordi">
                             <div class="circulodi"></div>
                         </div>
@@ -300,85 +284,84 @@
         </div>
     </section>
 
-    <!-- Seccion Portafolio -->
+    <!-- Portfolio Section -->
 
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
             <h2>PORTFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
+                    <a href="https://weatherappbmj1.netlify.app/">
                     <img src="img/Proyectos/proyecto1.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Web</h3>
-                        <p>Brian Monroig</p>
+                        <h3>Weather App</h3>
+                        <p>I developed an app using React, TypeScript, and Redux, connected to an API that provides the weather information for the city you search</p>
                     </div>
+                    </a>
                 </div>
-            
-            
+
+
                 <div class="proyecto">
-                    <img src="img/Proyectos/cafe2.png" alt="">
+                    <a href="https://moneymanagementbmj.netlify.app/">
+                    <img src="img/Proyectos/proyecto2.png" alt="">
                     <div class="overlay">
-                        <h3>Blog</h3>
-                        <p>Todo sobre café</p>
+                        <h3>Money Management App</h3>
+                        <p>This app was created using React, TypeScript, and Redux. It is a useful tool for managing your finances and helping you save money.</p>
                     </div>
+                </a>
                 </div>
-            
-            
+
+
                 <div class="proyecto">
                     <div class="role">
-                    <img src="img/Proyectos/roleplay.png" alt="">
+                        <a href="https://6631ec0645d57687cb4ba11e--cheerful-custard-e82e51.netlify.app/">
+                            <img src="img/Proyectos/roleplay.png" alt="">
                     </div>
                     <div class="overlay">
                         <h3>Roleplay</h3>
-                        <p>Hecho con Javascript</p>
+                        <p>A role play made exclusive with Javascript.</p>
                     </div>
+                    </a>
+
                 </div>
-            
-            
-                <div class="proyecto">
-                    <img src="img/Proyectos/tienda.png" alt="">
-                    <div class="overlay">
-                        <h3>Front End Store</h3>
-                        <p>Tienda de ropa</p>
-                    </div>
-                </div>
+
             </div>
 
         </div>
     </section>
 
-    <!-- Seccion Contacto -->
+    <!-- Contact Section -->
 
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
+            <h2>CONTACT</h2>
             <div class="fila">
-                <!-- Formulario -->
+                <!-- Form -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Phone Number">
+                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                     <button>
-                        
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+
+                        Send Message<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                         <!-- <i class="fa-solid fa-download"></i> -->
                     </button>
                 </div>
-                <!-- Mapa -->
+                <!-- Map -->
                 <div class="col">
                     <img src="img/mapa.png" alt="">
                     <div class="info">
                         <ul>
                             <li>
                                 <i class="fa-solid fa-location-dot"></i>
-                                Gran via, Barcelona
+                                Gran Via, Barcelona
                             </li>
                             <li>
                                 <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: +34 614328428
+                                Call us: +34 614328428
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i>
